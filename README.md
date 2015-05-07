@@ -12,9 +12,9 @@
 
 ## Concepts required
 
-      1. Funciones aleatorias
+      1. Aleatory Functions
       2. Variables
-      3. Numeros enteros
+      3. Whole Numbers
       4. Input/Output
       5. Print
       6. While Loops
