@@ -1,7 +1,7 @@
 """welcome to game guess the number"""
 import random #Random number generation
 
-INGRESAR = random.randrange(1, 20) #The game most generate random number from 1 to 20
+INGRESAR = random.randrange(1, 21) #The game most generate random number from 1 to 20
 print INGRESAR #print the number
 
 GENERATE = int(raw_input("insert a number in range 1 to 20: "))
