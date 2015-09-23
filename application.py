@@ -1,4 +1,5 @@
 """welcome to game guess the number"""
+
 import random #Random number generation
 
 INGRESAR = random.randrange(1, 21) #The game most generate random number from 1 to 20
