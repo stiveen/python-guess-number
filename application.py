@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """welcome to game guess the number"""
 import random #Random number generation
 
@@ -12,3 +13,8 @@ elif GENERATE > INGRESAR: # if you insert a number that is lower that the genera
     print"the number is too low, try again please"
 elif GENERATE == INGRESAR: #if you guess the number the game will give me the mesage "You Win"
     print "YOU WIN" #here print mesage to win
+=======
+# Aqui escribe tu codigo
+
+print "Hello World"
+>>>>>>> bf52e1579c46b8508400e768f4b4c38e9b1b645d
