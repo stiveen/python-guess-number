@@ -23,7 +23,6 @@ PLAY = True
 while PLAY == True:
 
    INPUT = random.randrange(1, 21)
-   print INPUT
    TURN = 0
  
    while  TURN <= 3:
