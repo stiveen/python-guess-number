@@ -8,7 +8,7 @@ while PLAY == True:
     print INPUT
     TURN = 0
     while  TURN <= 4:
-        print "This is your "+str(TURN +1) + " turn"
+        print "This is your turn "+str(TURN +1)
         TURN = TURN + 1
         GENERATE = int(raw_input("insert a number in range 1 to 20: "))
         if GENERATE < INPUT:
