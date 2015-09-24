@@ -6,19 +6,18 @@ print """
 |  |  |  |  |   __|__   |__   |  |     |  | | | |  |  | | | | __ -|   __|    -|
 |_____|_____|_____|_____|_____|  |__|__|  |_|___|_____|_|_|_|_____|_____|__|__|
 
-############################################################################
-#hello this is a game that tries to guess a number that is randomly created.#
-#                                                                           #
-#1) enter the number that you think of 1 to 20.                             #
-#                                                                           #
-#2) you only have 4 turns.                                                  #
-#                                                                           #
-#3) despuues Asher will tell you that if your                               #
-#numbers is very large or small q try it buelvas.                           #
-#                                                                           #
-#4) after the 4 turns will ask if you want to leave or continue playing,    #
-#and is to keep playing, 'No' to exit the game.                             #
-#############################################################################"""                                                                        
+##############################################################################
+#Hello this is a game that tries to guess a number that is created at random.#
+#                                                                            #
+#1) Enter the number you think the 1-20 .                                    #
+#                                                                            #
+#2) Just 4 turns .                                                           #
+#                                                                            #
+#3) Then tell him what to do if their number is large or small buelvas try   #
+#                                                                            #
+#4) After 4 laps will ask if you want to leave or keep playing               # 
+#and keep playing , "No" to exit the game .                                  #
+##############################################################################"""                                                                        
 
 PLAY = True
 while PLAY == True:
@@ -33,13 +32,15 @@ while PLAY == True:
        GENERATE = 0
 
        while GENERATE < 1 or GENERATE >20:
-           GENERATE = (raw_input("insert a number in range 1 to 20: "))#in this part of the code number is entered , that user guess the random number
+           GENERATE = (raw_input("insert a number in range 1 to 20: "))
+           #in this part of the code number is entered , that user guess the random number
            try:
                GENERATE = int(GENERATE)
            except ValueError:
                pass
                #print "insert a number"
-       if GENERATE < INPUT:#if you insert a number greater or less than the number generated then I recivire retry message
+       if GENERATE < INPUT:
+       #if you insert a number greater or less than the number generated then I recivire retry message
            print"the number is too low, try again please"
        elif GENERATE > INPUT:
            print"the number is too high, try again please"
